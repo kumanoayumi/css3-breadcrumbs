@@ -1,0 +1,245 @@
+@charset "utf-8"
+@import compass
+
+body
+  background: #F8F8F8
+  font-family: 'Open Sans', sans-serif
+  font-size: 13px
+  width: 880px
+  margin: 5% auto
+
+h1
+  text-align: center
+  font-size: 240%
+  margin: 5% 0
+  color: rgba(0, 0, 0, 0.5)
+
+h2
+  color: rgba(0, 0, 0, 0.5)
+  font-size: 124%
+
+ul
+  margin: 0 0 5% 0
+  padding: 0
+  list-style: none
+
+
+// breadcrumbs-one
+
+=breadcrumbs-one
+  background: #eee
+  border-width: 1px
+  border-style: solid
+  border-color: #f5f5f5 #e5e5e5 #ccc
+  border-radius: 5px
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2)
+  overflow: hidden
+  width: 100%
+  li
+    float: left
+  a
+    padding: .7em 1em .7em 2em
+    float: left
+    text-decoration: none
+    color: #444
+    position: relative
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5)
+    background-color: #ddd
+    background-image: linear-gradient(to right, whitesmoke, #dddddd)
+  li:first-child a
+    padding-left: 1em
+    border-radius: 5px 0 0 5px
+  a
+    &:hover
+      background: #fff
+    &::after, &::before
+      content: ""
+      position: absolute
+      top: 50%
+      margin-top: -1.5em
+      border-top: 1.5em solid transparent
+      border-bottom: 1.5em solid transparent
+      border-left: 1em solid
+      right: -1em
+    &::after
+      z-index: 2
+      border-left-color: #ddd
+    &::before
+      border-left-color: #ccc
+      right: -1.1em
+      z-index: 1
+    &:hover::after
+      border-left-color: #fff
+  .current
+    font-weight: bold
+    background: none
+    &:hover
+      font-weight: bold
+      background: none
+    &::after, &::before
+      content: normal
+
+// breadcrumbs-two
+
+=breadcrumbs-two
+  overflow: hidden
+  width: 100%
+  li
+    float: left
+    margin: 0 .5em 0 1em
+  a
+    background: #ddd
+    padding: .7em 1em
+    float: left
+    text-decoration: none
+    color: #444
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5)
+    position: relative
+    &:hover
+      background: #99db76
+    &::before
+      content: ""
+      position: absolute
+      top: 50%
+      margin-top: -1.5em
+      border-width: 1.5em 0 1.5em 1em
+      border-style: solid
+      border-color: #ddd #ddd #ddd transparent
+      left: -1em
+    &:hover::before
+      border-color: #99db76 #99db76 #99db76 transparent
+    &::after
+      content: ""
+      position: absolute
+      top: 50%
+      margin-top: -1.5em
+      border-top: 1.5em solid transparent
+      border-bottom: 1.5em solid transparent
+      border-left: 1em solid #ddd
+      right: -1em
+    &:hover::after
+      border-left-color: #99db76
+  .current
+    font-weight: bold
+    background: none
+    &:hover
+      font-weight: bold
+      background: none
+    &::after, &::before
+      content: normal
+
+
+// breadcrumbs-three
+
+=breadcrumbs-three
+  overflow: hidden
+  width: 100%
+  li
+    float: left
+    margin: 0 2em 0 0
+  a
+    padding: .7em 1em .7em 2em
+    float: left
+    text-decoration: none
+    color: #444
+    background: #ddd
+    position: relative
+    z-index: 1
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5)
+    border-radius: .4em 0 0 .4em
+    &:hover
+      background: #abe0ef
+    &::after
+      background: #ddd
+      content: ""
+      height: 2.2em
+      margin-top: -1.15em
+      position: absolute
+      right: -1.1em
+      top: 50%
+      width: 2.2em
+      z-index: -1
+      -moz-transform: rotate(45deg)
+      -o-transform: rotate(45deg)
+      -webkit-transform: rotate(45deg)
+      border-radius: .4em
+    &:hover::after
+      background: #abe0ef
+  .current
+    font-weight: bold
+    background: none
+    &:hover
+      font-weight: bold
+      background: none
+    &::after
+      content: normal
+
+
+// breadcrumbs-four
+
+=breadcrumbs-four
+  overflow: hidden
+  width: 100%
+  li
+    float: left
+    margin: 0 .5em 0 1em
+  a
+    background: #ddd
+    padding: .7em 1em
+    float: left
+    text-decoration: none
+    color: #444
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5)
+    position: relative
+    &:hover
+      background: #efc9ab
+    &::before, &::after
+      content: ''
+      position: absolute
+      top: 0
+      bottom: 0
+      width: 1em
+      background: #ddd
+      -moz-transform: skew(-10deg)
+      -o-transform: skew(-10deg)
+      -webkit-transform: skew(-10deg)
+      transform: skew(-10deg)
+    &::before
+      left: -0.5em
+      border-radius: 5px 0 0 5px
+    &:hover::before
+      background: #efc9ab
+    &::after
+      right: -0.5em
+      border-radius: 0 5px 5px 0
+    &:hover::after
+      background: #efc9ab
+  .current
+    font-weight: bold
+    background: none
+    &:hover
+      font-weight: bold
+      background: none
+    &::after, &::before
+      content: normal
+
+.breadcrumbs-one
+  +breadcrumbs-one
+.breadcrumbs-one-pink
+  +breadcrumbs-one
+  background: lighten(desaturate(#F0C,45),42)
+  a
+    background-image: linear-gradient(to right, whitesmoke, lighten(desaturate(#F0C,35),30))
+    &::after
+      z-index: 2
+      border-left-color: lighten(desaturate(#F0C,35),30)
+    &::before
+      border-left-color: lighten(desaturate(#F0C,35),25)
+      right: -1.1em
+      z-index: 1
+.breadcrumbs-two
+  +breadcrumbs-two
+.breadcrumbs-three
+  +breadcrumbs-three
+.breadcrumbs-four
+  +breadcrumbs-four
