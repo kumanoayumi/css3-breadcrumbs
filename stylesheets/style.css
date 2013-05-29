@@ -1,4 +1,4 @@
-/* line 4, ../source/stylesheets/style.css.sass */
+/* line 4, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
 body {
   background: #f8f8f8;
   font-family: "Open Sans", sans-serif;
@@ -6,25 +6,25 @@ body {
   width: 880px;
   margin: 5% auto; }
 
-/* line 11, ../source/stylesheets/style.css.sass */
+/* line 11, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
 h1 {
   text-align: center;
   font-size: 240%;
   margin: 5% 0;
   color: rgba(0, 0, 0, 0.5); }
 
-/* line 17, ../source/stylesheets/style.css.sass */
+/* line 17, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
 h2 {
   color: rgba(0, 0, 0, 0.5);
   font-size: 124%; }
 
-/* line 21, ../source/stylesheets/style.css.sass */
+/* line 21, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
 ul {
   margin: 0 0 5% 0;
   padding: 0;
   list-style: none; }
 
-/* line 226, ../source/stylesheets/style.css.sass */
+/* line 226, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
 .breadcrumbs-one {
   background: #eeeeee;
   border-width: 1px;
@@ -34,10 +34,10 @@ ul {
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
   overflow: hidden;
   width: 100%; }
-  /* line 38, ../source/stylesheets/style.css.sass */
+  /* line 38, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
   .breadcrumbs-one li {
     float: left; }
-  /* line 40, ../source/stylesheets/style.css.sass */
+  /* line 40, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
   .breadcrumbs-one a {
     padding: 0.7em 1em 0.7em 2em;
     float: left;
@@ -47,14 +47,14 @@ ul {
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
     background-color: #dddddd;
     background-image: linear-gradient(to right, #f5f5f5, #dddddd); }
-  /* line 49, ../source/stylesheets/style.css.sass */
+  /* line 49, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
   .breadcrumbs-one li:first-child a {
     padding-left: 1em;
     border-radius: 5px 0 0 5px; }
-  /* line 53, ../source/stylesheets/style.css.sass */
+  /* line 53, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
   .breadcrumbs-one a:hover {
     background: white; }
-  /* line 55, ../source/stylesheets/style.css.sass */
+  /* line 55, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
   .breadcrumbs-one a::after, .breadcrumbs-one a::before {
     content: "";
     position: absolute;
@@ -64,31 +64,31 @@ ul {
     border-bottom: 1.5em solid transparent;
     border-left: 1em solid;
     right: -1em; }
-  /* line 64, ../source/stylesheets/style.css.sass */
+  /* line 64, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
   .breadcrumbs-one a::after {
     z-index: 2;
     border-left-color: #dddddd; }
-  /* line 67, ../source/stylesheets/style.css.sass */
+  /* line 67, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
   .breadcrumbs-one a::before {
     border-left-color: #cccccc;
     right: -1.1em;
     z-index: 1; }
-  /* line 71, ../source/stylesheets/style.css.sass */
+  /* line 71, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
   .breadcrumbs-one a:hover::after {
     border-left-color: white; }
-  /* line 73, ../source/stylesheets/style.css.sass */
+  /* line 73, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
   .breadcrumbs-one .current {
     font-weight: bold;
     background: none; }
-    /* line 76, ../source/stylesheets/style.css.sass */
+    /* line 76, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
     .breadcrumbs-one .current:hover {
       font-weight: bold;
       background: none; }
-    /* line 79, ../source/stylesheets/style.css.sass */
+    /* line 79, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
     .breadcrumbs-one .current::after, .breadcrumbs-one .current::before {
       content: normal; }
 
-/* line 228, ../source/stylesheets/style.css.sass */
+/* line 228, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
 .breadcrumbs-one-pink {
   background: #eeeeee;
   border-width: 1px;
@@ -99,10 +99,10 @@ ul {
   overflow: hidden;
   width: 100%;
   background: #f6dff1; }
-  /* line 38, ../source/stylesheets/style.css.sass */
+  /* line 38, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
   .breadcrumbs-one-pink li {
     float: left; }
-  /* line 40, ../source/stylesheets/style.css.sass */
+  /* line 40, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
   .breadcrumbs-one-pink a {
     padding: 0.7em 1em 0.7em 2em;
     float: left;
@@ -112,14 +112,14 @@ ul {
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
     background-color: #dddddd;
     background-image: linear-gradient(to right, #f5f5f5, #dddddd); }
-  /* line 49, ../source/stylesheets/style.css.sass */
+  /* line 49, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
   .breadcrumbs-one-pink li:first-child a {
     padding-left: 1em;
     border-radius: 5px 0 0 5px; }
-  /* line 53, ../source/stylesheets/style.css.sass */
+  /* line 53, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
   .breadcrumbs-one-pink a:hover {
     background: white; }
-  /* line 55, ../source/stylesheets/style.css.sass */
+  /* line 55, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
   .breadcrumbs-one-pink a::after, .breadcrumbs-one-pink a::before {
     content: "";
     position: absolute;
@@ -129,51 +129,51 @@ ul {
     border-bottom: 1.5em solid transparent;
     border-left: 1em solid;
     right: -1em; }
-  /* line 64, ../source/stylesheets/style.css.sass */
+  /* line 64, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
   .breadcrumbs-one-pink a::after {
     z-index: 2;
     border-left-color: #dddddd; }
-  /* line 67, ../source/stylesheets/style.css.sass */
+  /* line 67, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
   .breadcrumbs-one-pink a::before {
     border-left-color: #cccccc;
     right: -1.1em;
     z-index: 1; }
-  /* line 71, ../source/stylesheets/style.css.sass */
+  /* line 71, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
   .breadcrumbs-one-pink a:hover::after {
     border-left-color: white; }
-  /* line 73, ../source/stylesheets/style.css.sass */
+  /* line 73, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
   .breadcrumbs-one-pink .current {
     font-weight: bold;
     background: none; }
-    /* line 76, ../source/stylesheets/style.css.sass */
+    /* line 76, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
     .breadcrumbs-one-pink .current:hover {
       font-weight: bold;
       background: none; }
-    /* line 79, ../source/stylesheets/style.css.sass */
+    /* line 79, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
     .breadcrumbs-one-pink .current::after, .breadcrumbs-one-pink .current::before {
       content: normal; }
-  /* line 231, ../source/stylesheets/style.css.sass */
+  /* line 231, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
   .breadcrumbs-one-pink a {
     background-image: linear-gradient(to right, #f5f5f5, #edabe0); }
-    /* line 233, ../source/stylesheets/style.css.sass */
+    /* line 233, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
     .breadcrumbs-one-pink a::after {
       z-index: 2;
       border-left-color: #edabe0; }
-    /* line 236, ../source/stylesheets/style.css.sass */
+    /* line 236, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
     .breadcrumbs-one-pink a::before {
       border-left-color: #e996d8;
       right: -1.1em;
       z-index: 1; }
 
-/* line 240, ../source/stylesheets/style.css.sass */
+/* line 240, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
 .breadcrumbs-two {
   overflow: hidden;
   width: 100%; }
-  /* line 87, ../source/stylesheets/style.css.sass */
+  /* line 87, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
   .breadcrumbs-two li {
     float: left;
     margin: 0 0.5em 0 1em; }
-  /* line 90, ../source/stylesheets/style.css.sass */
+  /* line 90, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
   .breadcrumbs-two a {
     background: #dddddd;
     padding: 0.7em 1em;
@@ -182,10 +182,10 @@ ul {
     color: #444444;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
     position: relative; }
-    /* line 98, ../source/stylesheets/style.css.sass */
+    /* line 98, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
     .breadcrumbs-two a:hover {
       background: #99db76; }
-    /* line 100, ../source/stylesheets/style.css.sass */
+    /* line 100, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
     .breadcrumbs-two a::before {
       content: "";
       position: absolute;
@@ -195,10 +195,10 @@ ul {
       border-style: solid;
       border-color: #dddddd #dddddd #dddddd transparent;
       left: -1em; }
-    /* line 109, ../source/stylesheets/style.css.sass */
+    /* line 109, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
     .breadcrumbs-two a:hover::before {
       border-color: #99db76 #99db76 #99db76 transparent; }
-    /* line 111, ../source/stylesheets/style.css.sass */
+    /* line 111, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
     .breadcrumbs-two a::after {
       content: "";
       position: absolute;
@@ -208,30 +208,30 @@ ul {
       border-bottom: 1.5em solid transparent;
       border-left: 1em solid #dddddd;
       right: -1em; }
-    /* line 120, ../source/stylesheets/style.css.sass */
+    /* line 120, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
     .breadcrumbs-two a:hover::after {
       border-left-color: #99db76; }
-  /* line 122, ../source/stylesheets/style.css.sass */
+  /* line 122, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
   .breadcrumbs-two .current {
     font-weight: bold;
     background: none; }
-    /* line 125, ../source/stylesheets/style.css.sass */
+    /* line 125, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
     .breadcrumbs-two .current:hover {
       font-weight: bold;
       background: none; }
-    /* line 128, ../source/stylesheets/style.css.sass */
+    /* line 128, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
     .breadcrumbs-two .current::after, .breadcrumbs-two .current::before {
       content: normal; }
 
-/* line 242, ../source/stylesheets/style.css.sass */
+/* line 242, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
 .breadcrumbs-three {
   overflow: hidden;
   width: 100%; }
-  /* line 137, ../source/stylesheets/style.css.sass */
+  /* line 137, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
   .breadcrumbs-three li {
     float: left;
     margin: 0 2em 0 0; }
-  /* line 140, ../source/stylesheets/style.css.sass */
+  /* line 140, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
   .breadcrumbs-three a {
     padding: 0.7em 1em 0.7em 2em;
     float: left;
@@ -242,10 +242,10 @@ ul {
     z-index: 1;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
     border-radius: 0.4em 0 0 0.4em; }
-    /* line 150, ../source/stylesheets/style.css.sass */
+    /* line 150, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
     .breadcrumbs-three a:hover {
       background: #abe0ef; }
-    /* line 152, ../source/stylesheets/style.css.sass */
+    /* line 152, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
     .breadcrumbs-three a::after {
       background: #dddddd;
       content: "";
@@ -260,30 +260,30 @@ ul {
       -o-transform: rotate(45deg);
       -webkit-transform: rotate(45deg);
       border-radius: 0.4em; }
-    /* line 166, ../source/stylesheets/style.css.sass */
+    /* line 166, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
     .breadcrumbs-three a:hover::after {
       background: #abe0ef; }
-  /* line 168, ../source/stylesheets/style.css.sass */
+  /* line 168, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
   .breadcrumbs-three .current {
     font-weight: bold;
     background: none; }
-    /* line 171, ../source/stylesheets/style.css.sass */
+    /* line 171, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
     .breadcrumbs-three .current:hover {
       font-weight: bold;
       background: none; }
-    /* line 174, ../source/stylesheets/style.css.sass */
+    /* line 174, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
     .breadcrumbs-three .current::after {
       content: normal; }
 
-/* line 244, ../source/stylesheets/style.css.sass */
+/* line 244, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
 .breadcrumbs-four {
   overflow: hidden;
   width: 100%; }
-  /* line 183, ../source/stylesheets/style.css.sass */
+  /* line 183, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
   .breadcrumbs-four li {
     float: left;
     margin: 0 0.5em 0 1em; }
-  /* line 186, ../source/stylesheets/style.css.sass */
+  /* line 186, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
   .breadcrumbs-four a {
     background: #dddddd;
     padding: 0.7em 1em;
@@ -292,10 +292,10 @@ ul {
     color: #444444;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
     position: relative; }
-    /* line 194, ../source/stylesheets/style.css.sass */
+    /* line 194, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
     .breadcrumbs-four a:hover {
       background: #efc9ab; }
-    /* line 196, ../source/stylesheets/style.css.sass */
+    /* line 196, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
     .breadcrumbs-four a::before, .breadcrumbs-four a::after {
       content: "";
       position: absolute;
@@ -307,28 +307,28 @@ ul {
       -o-transform: skew(-10deg);
       -webkit-transform: skew(-10deg);
       transform: skew(-10deg); }
-    /* line 207, ../source/stylesheets/style.css.sass */
+    /* line 207, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
     .breadcrumbs-four a::before {
       left: -0.5em;
       border-radius: 5px 0 0 5px; }
-    /* line 210, ../source/stylesheets/style.css.sass */
+    /* line 210, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
     .breadcrumbs-four a:hover::before {
       background: #efc9ab; }
-    /* line 212, ../source/stylesheets/style.css.sass */
+    /* line 212, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
     .breadcrumbs-four a::after {
       right: -0.5em;
       border-radius: 0 5px 5px 0; }
-    /* line 215, ../source/stylesheets/style.css.sass */
+    /* line 215, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
     .breadcrumbs-four a:hover::after {
       background: #efc9ab; }
-  /* line 217, ../source/stylesheets/style.css.sass */
+  /* line 217, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
   .breadcrumbs-four .current {
     font-weight: bold;
     background: none; }
-    /* line 220, ../source/stylesheets/style.css.sass */
+    /* line 220, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
     .breadcrumbs-four .current:hover {
       font-weight: bold;
       background: none; }
-    /* line 223, ../source/stylesheets/style.css.sass */
+    /* line 223, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/style.css.sass */
     .breadcrumbs-four .current::after, .breadcrumbs-four .current::before {
       content: normal; }

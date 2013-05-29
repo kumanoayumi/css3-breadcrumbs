@@ -1,49 +1,62 @@
-@charset "utf-8"
+@charset "UTF-8";
+/* line 3, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/all.css.sass.css */
+body {
+  background: #d4d4d4 url("../images/background.png");
+  text-align: center;
+  font-family: sans-serif; }
 
-body
-  background: #d4d4d4 url("../images/background.png")
-  text-align: center
-  font-family: sans-serif
+/* line 8, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/all.css.sass.css */
+h1 {
+  color: rgba(0, 0, 0, 0.3);
+  font-weight: bold;
+  font-size: 32px;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  background: url("../images/middleman.png") no-repeat center 100px;
+  padding: 350px 0 10px;
+  margin: 0; }
 
-h1
-  color: rgba(0, 0, 0, 0.3)
-  font-weight: bold
-  font-size: 32px
-  letter-spacing: -1px
-  text-transform: uppercase
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5)
-  background: url("../images/middleman.png") no-repeat center 100px
-  padding: 350px 0 10px
-  margin: 0
+/* line 19, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/all.css.sass.css */
+.doc {
+  font-size: 14px;
+  margin: 0; }
+  /* line 22, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/all.css.sass.css */
+  .doc:before, .doc:after {
+    opacity: 0.2;
+    padding: 6px;
+    font-style: normal;
+    position: relative;
+    content: "•"; }
+  /* line 28, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/all.css.sass.css */
+  .doc a {
+    color: rgba(0, 0, 0, 0.3); }
+    /* line 30, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/all.css.sass.css */
+    .doc a:hover {
+      color: #666666; }
 
-.doc
-  font-size: 14px
-  margin: 0
-  &:before, &:after
-    opacity: .2
-    padding: 6px
-    font-style: normal
-    position: relative
-    content: "•"
-  a
-    color: rgba(0, 0, 0, 0.3)
-    &:hover
-      color: #666
+/* line 33, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/all.css.sass.css */
+.welcome {
+  -webkit-animation-name: welcome;
+  -webkit-animation-duration: 0.9s; }
 
-.welcome
-  -webkit-animation-name: welcome
-  -webkit-animation-duration: .9s
+@-webkit-keyframes welcome {
+  /* line 38, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/all.css.sass.css */
+  from {
+    -webkit-transform: scale(0);
+    opacity: 0; }
 
-@-webkit-keyframes welcome
-  from
-    -webkit-transform: scale(0)
-    opacity: 0
-  50%
-    -webkit-transform: scale(0)
-    opacity: 0
-  82.5%
-    -webkit-transform: scale(1.03)
-    -webkit-animation-timing-function: ease-out
-    opacity: 1
-  to
-    -webkit-transform: scale(1)
+  /* line 41, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/all.css.sass.css */
+  50% {
+    -webkit-transform: scale(0);
+    opacity: 0; }
+
+  /* line 44, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/all.css.sass.css */
+  82.5% {
+    -webkit-transform: scale(1.03);
+    -webkit-animation-timing-function: ease-out;
+    opacity: 1; }
+
+  /* line 48, /Users/kumanoayumi/labo/css3-breadcrumbs/source/stylesheets/all.css.sass.css */
+  to {
+    -webkit-transform: scale(1); } }
