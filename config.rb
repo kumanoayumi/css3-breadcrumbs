@@ -49,7 +49,7 @@
 
 activate :livereload
 
-set :css_dir, 'stylesheets'
+set :css_dir, '../stylesheets'
 
 set :js_dir, 'javascripts'
 
