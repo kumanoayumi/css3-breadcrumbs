@@ -3,8 +3,8 @@
   %head
     %meta{:charset => "utf-8"}
     %meta{:content => "IE=edge,chrome=1", "http-equiv" => "X-UA-Compatible"}
-    %title{ :relative => true}= data.page.title || "The Middleman"
-    = stylesheet_link_tag "normalize", "style"
+    %title= data.page.title || "The Middleman"
+    = stylesheet_link_tag "http://kumanoayumi.github.io/css3-breadcrumbs/normalize.css", "http://kumanoayumi.github.io/css3-breadcrumbs/style.css"
     = javascript_include_tag  "all"
     %link{:href => "http://fonts.googleapis.com/css?family=Open+Sans", :rel => "stylesheet", :type => "text/css"}
   %body{:class => page_classes}
