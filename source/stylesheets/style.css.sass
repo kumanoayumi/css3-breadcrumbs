@@ -80,45 +80,42 @@ ul
       content: normal
 
 // breadcrumbs-two
-
-=breadcrumbs-two
-  overflow: hidden
-  width: 100%
-  li
-    float: left
-    margin: 0 .5em 0 1em
+=zurui-breadcrumbs($base-color, $text-color, $hover-color, $border-size)
+  $arrow-size: $border-size*2/3
+  +clearfix
   a
-    background: #ddd
-    padding: .7em 1em
+    background: $base-color
+    padding: 0 $arrow-size
+    line-height: $border-size*2
     float: left
     text-decoration: none
-    color: #444
+    color: $text-color
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5)
     position: relative
     &:hover
-      background: #99db76
+      background: $hover-color
     &::before
       content: ""
       position: absolute
       top: 50%
-      margin-top: -1.5em
-      border-width: 1.5em 0 1.5em 1em
+      margin-top: -#{$border-size}
+      border-width: #{$border-size} 0 #{$border-size} #{$arrow-size}
       border-style: solid
-      border-color: #ddd #ddd #ddd transparent
-      left: -1em
+      border-color: $base-color $base-color $base-color transparent
+      left: -#{$arrow-size}
     &:hover::before
-      border-color: #99db76 #99db76 #99db76 transparent
+      border-color: $hover-color $hover-color $hover-color transparent
     &::after
       content: ""
       position: absolute
       top: 50%
-      margin-top: -1.5em
-      border-top: 1.5em solid transparent
-      border-bottom: 1.5em solid transparent
-      border-left: 1em solid #ddd
-      right: -1em
+      margin-top: -#{$border-size}
+      border-top: #{$border-size} solid transparent
+      border-bottom: #{$border-size} solid transparent
+      border-left: #{$arrow-size} solid $base-color
+      right: -#{$arrow-size}
     &:hover::after
-      border-left-color: #99db76
+      border-left-color: $hover-color
   .current
     font-weight: bold
     background: none
@@ -127,6 +124,12 @@ ul
       background: none
     &::after, &::before
       content: normal
+
+.breadcrumbs-two
+  +zurui-breadcrumbs(#FFF, #000, #abe0ef, 1.5em)
+  li
+    float: left
+    margin: 0 0.5em 0 1em
 
 
 // breadcrumbs-three
@@ -237,8 +240,6 @@ ul
       border-left-color: lighten(desaturate(#F0C,35),25)
       right: -1.1em
       z-index: 1
-.breadcrumbs-two
-  +breadcrumbs-two
 .breadcrumbs-three
   +breadcrumbs-three
 .breadcrumbs-four
