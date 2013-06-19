@@ -81,8 +81,11 @@ ul
 
 // breadcrumbs-two
 =zurui-breadcrumbs($base-color, $text-color, $hover-color, $border-size)
-  $arrow-size: $border-size*2/3
+  $arrow-size: floor($border-size*2/3)
   +clearfix
+  li
+    float: left
+    margin: 0 $border-size*1/3 0 $border-size*2/3
   a
     background: $base-color
     padding: 0 $arrow-size
@@ -126,10 +129,7 @@ ul
       content: normal
 
 .breadcrumbs-two
-  +zurui-breadcrumbs(#FFF, #000, #abe0ef, 1.5em)
-  li
-    float: left
-    margin: 0 0.5em 0 1em
+  +zurui-breadcrumbs(#FFF, #000, #abe0ef, 20px)
 
 
 // breadcrumbs-three
